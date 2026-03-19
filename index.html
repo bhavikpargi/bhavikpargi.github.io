@@ -1,74 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Bhavik Pargi | Cyber Security Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<header class="navbar">
-  <h2 class="logo">Cyber<span>Security</span></h2>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#experience">Experience</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
-
-<section class="hero">
-  <div class="hero-text">
-    <h1>Cyber Security</h1>
-    <h3>Technological Protection</h3>
-    <p>
-      Bhavik Pargi <br>
-      Cybersecurity Analyst | SOC | VAPT | DFIR
-    </p>
-    <button>More Info</button>
-  </div>
-</section>
-
-<section id="about" class="section">
-  <h2>About Me</h2>
-  <p>
-    Dedicated Cybersecurity Analyst with hands-on experience in SOC operations,
-    vulnerability assessment, digital forensics and incident response.
-    Passionate about protecting enterprise environments from cyber threats.
-  </p>
-</section>
-
-<section id="skills" class="section">
-  <h2>Skills & Tools</h2>
-  <div class="cards">
-    <div class="card">SOC Operations</div>
-    <div class="card">VAPT</div>
-    <div class="card">DFIR</div>
-    <div class="card">Splunk SIEM</div>
-    <div class="card">Wireshark</div>
-    <div class="card">Nmap & Nessus</div>
-  </div>
-</section>
-
-<section id="experience" class="section">
-  <h2>Experience</h2>
-  <p>
-    Cyber Security Intern – Cyber Secured India <br>
-    Security Analyst – TechDefence Labs <br>
-    DFIR Intern – IIMT
-  </p>
-</section>
-
-<section id="contact" class="section contact">
-  <h2>Contact</h2>
-  <p>Email: bhavikpargi16@gmail.com</p>
-  <p>Phone: 7016358010</p>
-  <p>Location: Ahmedabad</p>
-</section>
-
-<footer>
-  <p>© 2025 Bhavik Pargi | Cyber Security Portfolio</p>
-</footer>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bhavik Pargi | Cybersecurity Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Bhavik Pargi, a cybersecurity professional focused on SOC operations, VAPT, DFIR, and red teaming."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero" id="home">
+      <nav class="nav container">
+        <a class="brand" href="#home">Bhavik Pargi</a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu">☰</button>
+        <div class="nav-links" id="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Cybersecurity Portfolio</p>
+          <h1>Security Analyst focused on SOC, VAPT, DFIR, and Red Teaming.</h1>
+          <p class="hero-text">
+            Bhavik Pargi is a cybersecurity professional with hands-on internship experience in
+            threat monitoring, log analysis, vulnerability assessment, and practical security labs.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Hire Me</a>
+            <a class="button button-secondary" href="assets/Bhavik_Pargi_Resume.pdf" target="_blank" rel="noreferrer">View Resume</a>
+          </div>
+          <div class="stats-grid">
+            <article class="stat-card">
+              <strong>3</strong>
+              <span>Security internships</span>
+            </article>
+            <article class="stat-card">
+              <strong>6+</strong>
+              <span>Industry certifications</span>
+            </article>
+            <article class="stat-card">
+              <strong>2</strong>
+              <span>Practical security projects</span>
+            </article>
+          </div>
+        </div>
+        <aside class="profile-card reveal">
+          <div class="profile-status">Open to Security Analyst roles</div>
+          <h2>Bhavik Pargi</h2>
+          <p>Ahmedabad, India</p>
+          <ul class="contact-list">
+            <li><span>Email</span><a href="mailto:bhavikpargi16@gmail.com">bhavikpargi16@gmail.com</a></li>
+            <li><span>Phone</span><a href="tel:+917016358010">+91 7016358010</a></li>
+            <li><span>LinkedIn</span><a href="https://linkedin.com/in/bhavik-pargi-4a65aa303" target="_blank" rel="noreferrer">linkedin.com/in/bhavik-pargi-4a65aa303</a></li>
+          </ul>
+        </aside>
+      </div>
+    </header>
+    <main>
+      <section class="section" id="about">
+        <div class="container two-column">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Professional Summary</p>
+            <h2>About Me</h2>
+          </div>
+          <div class="card reveal">
+            <p>
+              Certified Red Team Analyst (CRTA) with a foundation in SOC operations, vulnerability
+              assessment, digital forensics, incident investigation, and security monitoring.
+            </p>
+            <p>
+              I enjoy working on real-world security problems, analyzing logs and alerts, and using
+              industry-standard tools to strengthen systems against evolving threats.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section section-dark" id="skills">
+        <div class="container">
+          <div class="section-heading center reveal">
+            <p class="eyebrow">Technical Expertise</p>
+            <h2>Skills & Tools</h2>
+          </div>
+          <div class="skills-grid">
+            <article class="card reveal">
+              <h3>Security Operations</h3>
+              <p>SOC Operations, Threat Detection, Incident Response, Log Analysis, VAPT</p>
+            </article>
+            <article class="card reveal">
+              <h3>Networking</h3>
+              <p>TCP/IP, DNS, HTTP/HTTPS, Network Security</p>
+            </article>
+            <article class="card reveal">
+              <h3>Security Tools</h3>
+              <p>Kali Linux, Nmap, Wireshark, Burp Suite, Metasploit, Wazuh, Splunk Basics</p>
+            </article>
+            <article class="card reveal">
+              <h3>Core Concepts</h3>
+              <p>OWASP Top 10, Vulnerability Assessment, Digital Forensics, Incident Investigation</p>
+            </article>
+            <article class="card reveal">
+              <h3>Red Teaming</h3>
+              <p>AD Enumeration, Privilege Escalation, Lateral Movement, Web Exploitation</p>
+            </article>
+            <article class="card reveal highlight-card">
+              <h3>Career Goal</h3>
+              <p>Seeking an entry-level Security Analyst role with practical SOC and VAPT exposure.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="experience">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Hands-on Experience</p>
+            <h2>Internships</h2>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <div class="timeline-top">
+                  <h3>SOC Analyst Intern</h3>
+                  <span>May 2025 – Nov 2025</span>
+                </div>
+                <p class="timeline-company">CyArt Tech</p>
+                <ul>
+                  <li>Monitored security alerts and supported threat analysis using an in-house SOC platform.</li>
+                  <li>Supported testing and operations of a custom cybersecurity platform.</li>
+                  <li>Analyzed system and network logs to identify potential security threats.</li>
+                </ul>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <div class="timeline-top">
+                  <h3>Cyber Security & Digital Forensics Intern</h3>
+                  <span>Apr 2025 – Jun 2025</span>
+                </div>
+                <p class="timeline-company">Cyber Secured India</p>
+                <ul>
+                  <li>Applied cybersecurity tools and techniques in practical and simulated environments.</li>
+                  <li>Built understanding of network security, vulnerability identification, and mitigation.</li>
+                  <li>Developed knowledge of cyber threats, defense strategies, and digital forensics.</li>
+                </ul>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <div class="timeline-top">
+                  <h3>Security Analyst (VAPT / SOC) Intern</h3>
+                  <span>Dec 2023 – Mar 2024</span>
+                </div>
+                <p class="timeline-company">TechDefence Labs Pvt. Ltd.</p>
+                <ul>
+                  <li>Conducted vulnerability assessment and penetration testing on web applications.</li>
+                  <li>Monitored security alerts and analyzed logs in a SOC environment.</li>
+                  <li>Identified vulnerabilities and supported incident investigation and reporting.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section section-dark" id="projects">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Practical Work</p>
+            <h2>Projects</h2>
+          </div>
+          <div class="project-grid">
+            <article class="project-card reveal">
+              <div class="project-image project-image-lab"></div>
+              <div class="project-content">
+                <h3>SOC Home Lab Setup & Security Monitoring</h3>
+                <p>Built a personal SOC home lab using Kali Linux and virtual machines for monitoring practice.</p>
+                <ul>
+                  <li>Performed log analysis and network traffic review.</li>
+                  <li>Practiced basic incident investigation workflows.</li>
+                </ul>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <div class="project-image project-image-redteam"></div>
+              <div class="project-content">
+                <h3>Red Team Lab Experience (CRTA)</h3>
+                <p>Executed reconnaissance and web enumeration inside a simulated attack lab.</p>
+                <ul>
+                  <li>Identified vulnerabilities and practiced privilege escalation techniques.</li>
+                  <li>Worked on internal pivoting and Active Directory enumeration basics.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="certifications">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Validated Learning</p>
+            <h2>Certifications</h2>
+          </div>
+          <div class="certification-grid">
+            <article class="card reveal"><h3>CRTA</h3><p>Certified Red Team Analyst — CyberWarfare Labs</p></article>
+            <article class="card reveal"><h3>CCEP</h3><p>Certified Cybersecurity Educator Professional — Red Team Leaders</p></article>
+            <article class="card reveal"><h3>C3SA</h3><p>Certified Cyber Security Analyst — Cyberwarfare Labs</p></article>
+            <article class="card reveal"><h3>TryHackMe</h3><p>SOC Level 1</p></article>
+            <article class="card reveal"><h3>Cisco</h3><p>Junior Cybersecurity Analyst</p></article>
+            <article class="card reveal"><h3>Blue Team</h3><p>Junior Analyst</p></article>
+          </div>
+        </div>
+      </section>
+      <section class="section section-dark" id="education">
+        <div class="container two-column">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Education</p>
+            <h2>Academic Background</h2>
+          </div>
+          <div class="card reveal">
+            <h3>Bachelor of Technology in Computer Science & Engineering (Cybersecurity)</h3>
+            <p>Parul University, Vadodara</p>
+            <p>2020 – 2024</p>
+            <p>CGPA: 7.25 / 10</p>
+          </div>
+        </div>
+      </section>
+      <section class="section contact-section" id="contact">
+        <div class="container contact-wrap reveal">
+          <div>
+            <p class="eyebrow">Let’s Connect</p>
+            <h2>Available for cybersecurity opportunities.</h2>
+            <p>
+              If you’re hiring for SOC, VAPT, or junior cybersecurity analyst roles, feel free to
+              reach out.
+            </p>
+          </div>
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:bhavikpargi16@gmail.com">Email Me</a>
+            <a class="button button-secondary" href="https://linkedin.com/in/bhavik-pargi-4a65aa303" target="_blank" rel="noreferrer">LinkedIn Profile</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Bhavik Pargi. Built with HTML, CSS, and JavaScript.</p>
+        <a href="#home">Back to top</a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
